@@ -2,7 +2,7 @@
 
 	/**
 	 * File				: inc.functions.php
-	 * Description		: Wrapper of general functions.
+	 * Description			: Wrapper of general functions.
 	 * Notes			: - none -
 	 */
 
@@ -15,7 +15,7 @@
 	 */
 	function getTopPlayers()
 	{
-		$playerCount	= 10;
+		$playerCount		= 10;
 		$players		= array();
 		$lpKills		= rand(0, 10000);
 		

@@ -2,9 +2,9 @@
 
 	/**
 	 * File				: inc.functions.cache.php
-	 * Description		: Wrapper of cache-related functions.
+	 * Description			: Wrapper of cache-related functions.
 	 * Notes			: All functions declared here -should- be prefixed with
-	 *                    'cache'. Just for "clean-code" purposes.
+	 *                  		  'cache'. Just for "clean-code" purposes.
 	 */
 
 	// Define some constants
@@ -70,7 +70,7 @@
 			if ($contents)
 			{
 				$cache			= cacheUnserializeData($contents);
-				$cache[$name]	= $data;
+				$cache[$name]		= $data;
 				
 				return file_put_contents(CACHE_INDEX, cacheSerializeData($cache));
 			}
@@ -115,8 +115,8 @@
 	function cacheCreate( $name )
 	{
 		$cache			= array('last_update_time'		=> time(),
-								'lifetime'				=> 60 * 60, // 1h
-								'data'					=> array());
+						'lifetime'				=> 60 * 60, // 1h
+						'data'					=> array());
 								
 		cachePutData( $name, $cache );
 	}

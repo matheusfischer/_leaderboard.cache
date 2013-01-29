@@ -2,14 +2,14 @@
 
 	/**
 	 * File				: index.php
-	 * Description		: Main functionality of the script.
+	 * Description			: Main functionality of the script.
 	 * Notes			: Some variables are thrown in this script
-	 *					  in a random way, although, in the origi-
-	 *					  nal script it wouldn't exist because th-
-	 *					  they are related to benchmark the cache.
-	 *					  ----------------------------------------
-	 *					  This script would go in place wherever 
-	 *					  you load any database-related content.
+	 *				  in a random way, although, in the origi-
+	 *				  nal script it wouldn't exist because th-
+	 *				  they are related to benchmark the cache.
+	 *				  ----------------------------------------
+	 *				  This script would go in place wherever 
+	 *				  you load any database-related content.
 	 */
 
 	// Let's define where we're executing our script so we can locate our selves.
@@ -52,14 +52,9 @@
 	}
 	
 	// Just a simple table to view our data.
-	
 	echo '<table border="1"><thead><th width="30">#</th><th width="300">Player Name</th><th width="60">Kills</th></thead><tbody>';
 	
 	// Iterate through players and display our data
-	
-	
-	
-	
 	foreach($players as $currentIndex => $currentPlayer)
 	{
 		echo '<tr><td>'.($currentIndex + 1).'</td><td>'.$currentPlayer['name'].'</td><td>'.$currentPlayer['kills'].'</td></tr>';
