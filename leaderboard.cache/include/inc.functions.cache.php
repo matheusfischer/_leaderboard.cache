@@ -20,7 +20,7 @@
 	 */
 	function cacheCreateCacheIndex()
 	{
-		if (!file_exists(CACHE_INDEX))
+		if (!file_exists(CACHE_INDEX) || (file_get_contents(CACHE_INDEX) == ""))
 		{
 			file_put_contents(CACHE_INDEX, cacheSerializeData(array()));
 			return true;

@@ -68,5 +68,5 @@
 	
 	$executionTime	= microtime(true);
 	
-	echo '<hr />Script execution time: <b>'.(round(($executionTime - $initialTime), 4) * 1000).'s</b>';
+	echo '<hr />Script execution time: <b>'.round(($executionTime - $initialTime), 4).'s</b>';
 ?>

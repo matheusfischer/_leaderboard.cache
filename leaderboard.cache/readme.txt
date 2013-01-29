@@ -1,0 +1,15 @@
+---------------------------------------------------------------------------------
+-- Leaderboards Cache
+---------------------------------------------------------------------------------
+-- Created by Matheus Fischer
+-- 28/01/2013
+---------------------------------------------------------------------------------
+-- The script is pretty straight-forward. I've commented pretty much everything.
+-- If there is something you don't understand, please, contact me.
+---------------------------------------------------------------------------------
+-- This script was written specially for HTTP://RISEOFTHEINFECTED.NET, and ONLY
+-- HTTP://RISEOFTHEINFECTED.NET.
+---------------------------------------------------------------------------------
+-- If you wish to support me, please visit my developers application thread:
+-- http://riseoftheinfected.net/forums/showthread.php?t=2612
+---------------------------------------------------------------------------------
