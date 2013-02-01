@@ -10,7 +10,7 @@
 	// Define some constants
 	define('CACHE_INDEX',				BASEDIR.'data'.DIRECTORY_SEPARATOR.'cache.dat');
 	
-	define('CACHE_TYPE_LEADERBOARD',	'leadeboard');
+	define('CACHE_TYPE_LEADERBOARD',		'leadeboard');
 	 
 	/**
 	 * bool cacheCreateCacheIndex()
