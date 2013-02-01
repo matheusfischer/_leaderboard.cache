@@ -24,10 +24,10 @@
 			// Let's use a special sleep, cause we don't want to take too long.
 			usleep(100000);
 			
-			$kills		= rand(0, $lpKills-1);
+			$kills		= rand(0, ($lpKills - 1));
 			
 			$players[]	= array('name'		=> generateRandomPlayerName(),
-								'kills'		=> $kills);
+						'kills'		=> $kills);
 								
 			$lpKills	= $kills;
 		}
@@ -50,7 +50,7 @@
 		
 		for( $i = 0; $i < $len; $i++ )
 		{
-			$name		.= $dic[rand(0, strlen($dic)-1)];
+			$name		.= $dic[rand(0, (strlen($dic) - 1))];
 		}
 		
 		return $name;
